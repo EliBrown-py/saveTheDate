@@ -9,7 +9,7 @@ const finalsSetUp = () => {
   $("#showDetailsBtn").click(function() {
     $("#examModalContent").html("<h2>Final Exam Details</h2><p>Date: " 
                                 + examDate + "<br>Time: " + examTime +"<br>Mode:" +mode +"</p>" + 
-                                "<p>The final project is an API, JQuery & Crud project and it is due Sun December 10, 11:59pm!</p>");
+                                "<p>The final project is an API, JQuery & Crud project. <br>and I intend to use a weather API to populate data to a webpage <br>so far i'm still finding a perfect weather API. </p>The final project is due Sun December 10, 11:59pm!</p>");
     $("#examModal").fadeIn();
     $("#overlay").fadeIn();
   });

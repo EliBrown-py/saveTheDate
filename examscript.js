@@ -9,7 +9,7 @@ const finalsSetUp = () => {
   $("#showDetailsBtn").click(function() {
     $("#examModalContent").html("<h2>Final Exam Details</h2><p>Date: " 
                                 + examDate + "<br>Time: " + examTime +"<br>Mode:" +mode +"</p>" + 
-                                "<p>The final exam is due on friday December 15 by 12:30pm dont be late!</p>");
+                                "<p>The final project is an API, JQuery & Crud project and it is due Sun December 10, 11:59pm!</p>");
     $("#examModal").fadeIn();
     $("#overlay").fadeIn();
   });
